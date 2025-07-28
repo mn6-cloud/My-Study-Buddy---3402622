@@ -12,3 +12,14 @@ Clone the repo
 Navigate to the project folder
 Run the Django server
 Open your browser and go to 
+
+Name: Mary Nsiah
+Supervisor:
+Github Repository: (https://github,com/mn6-cloud/MyStudyBuddy)
+
+NOTES
+This project was developed as my mini project for my Computer Science degree
+All contents and features are built from scratch using basic web and python tools.
+
+LINCENSE
+This project is for educational purpose only
