@@ -1,0 +1,7 @@
+<h3>Your Score: {{ score }}/5</h3>
+{% for item in feedback %}
+  <p><b>Question:</b> {{ item.question }}</p>
+  <p><b>Correct Answer:</b> {{ item.correct }}</p>
+  <p><b>Explanation:</b> {{ item.explanation }}</p>
+  <hr>
+{% endfor %}

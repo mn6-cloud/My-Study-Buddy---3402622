@@ -1,0 +1,126 @@
+/* studybuddy/static/css/styles.css */
+:root {
+    --primary: #4CAF50;  /* Green theme */
+    --secondary: #2196F3;
+    --background: #f5f5f5;
+    --card-bg: white;
+}
+
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation */
+.navbar {
+    background: var(--primary);
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 1.8rem;
+    display: inline-block;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+/* Forms & Cards */
+input[type="text"], input[type="submit"], button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+button, input[type="submit"] {
+    background: var(--primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+button:hover, input[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+}
+
+/* studybuddy/static/css/styles.css */
+.quiz-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.quiz-card {
+    background: var(--card-bg);
+    padding: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #eee;
+    transition: transform 0.2s;
+}
+
+.quiz-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .nav-links {
+        float: none;
+        margin-top: 1rem;
+    }
+    
+    .nav-links a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    input[type="text"] {
+        width: 100% !important;
+    }
+}

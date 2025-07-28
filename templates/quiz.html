@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card">
+    <h2 style="margin-bottom: 1rem;">{{ quiz.title }}</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {% for q in questions %}
+        <div class="question-card" style="margin: 1.5rem 0; padding: 1rem; border-left: 3px solid var(--primary);">
+            <p><strong>Question {{ forloop.counter }}:</strong> {{ q.text }}</p>
+            <div style="margin: 10px 0;">
+                <label>
+                    <input type="radio" name="q{{ q.id }}" value="A"> 
+                    {{ q.option_a }}
+                </label><br>
+                <label>
+                    <input type="radio" name="q{{ q.id }}" value="B"> 
+                    {{ q.option_b }}
+                </label><br>
+                <label>
+                    <input type="radio" name="q{{ q.id }}" value="C"> 
+                    {{ q.option_c }}
+                </label>
+            </div>
+        </div>
+        {% endfor %}
+        <button type="submit" style="width: 100%; padding: 12px;">Submit Quiz</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card">
+    <h2 style="margin-bottom: 1rem;">Chat Buddy 💬</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <div style="display: flex; gap: 10px;">
+            <input type="text" name="query" placeholder="Ask about biology, chemistry..." style="flex-grow: 1">
+            <button type="submit">Ask</button>
+        </div>
+    </form>
+
+    {% if answer %}
+    <div class="answer-box" style="margin-top: 1.5rem; padding: 1rem; background: #e3f2fd; border-radius: 4px;">
+        <p><strong>Answer:</strong> {{ answer }}</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

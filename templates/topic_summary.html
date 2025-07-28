@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card">
+    <form method="GET">
+        <input type="text" name="topic" placeholder="Enter topic (e.g., 'Cell Biology')" style="width: 70%">
+        <button type="submit">Get Summary</button>
+    </form>
+
+    {% if summary %}
+    <div class="summary-result" style="margin-top: 2rem; padding: 1rem; background: #e8f5e9; border-radius: 4px;">
+        <h3>Summary for "{{ request.GET.topic }}"</h3>
+        <p>{{ summary }}</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
