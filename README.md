@@ -17,8 +17,9 @@ Navigate to the project folder (cd MyStudyBuddy)
 Run the Django server (python manage.py runserver)
 Open your browser and go to (https://127.0.0.1:8000/summary/)
 
-Name: Mary Nsiah
-Supervisor: E.O.Osei
+Developed by: Mary Nsiah
+
+Supervised by: E.O.Osei
 
 Github Repository: [https://github.com/mn6-cloud/My-Study-Buddy---3402622.git](https://github.com/mn6-cloud/My-Study-Buddy---3402622.git)
 
