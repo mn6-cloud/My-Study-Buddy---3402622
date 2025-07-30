@@ -1,5 +1,5 @@
 MyStudyBuddy
-A smart assistance to help students study efficiently
+A smart assistance to help students study efficiently.
 
 PROJECT DESCRIPTION
 MyStudyBuddy is a web-based applicatiin that help students study better by summarizing topics, offering quizzes with instant feedback and providing a basic chatbot-style Q&A system using keyword matching
@@ -18,7 +18,7 @@ Run the Django server (python manage.py runserver)
 Open your browser and go to (https://127.0.0.1:8000/summary/)
 
 Name: Mary Nsiah
-Supervisor:
+Supervisor: E.O.Osei
 Github Repository: [https://github.com/mn6-cloud/My-Study-Buddy---3402622.git](https://github.com/mn6-cloud/My-Study-Buddy---3402622.git)
 
 NOTES
