@@ -19,6 +19,7 @@ Open your browser and go to (https://127.0.0.1:8000/summary/)
 
 Name: Mary Nsiah
 Supervisor: E.O.Osei
+
 Github Repository: [https://github.com/mn6-cloud/My-Study-Buddy---3402622.git](https://github.com/mn6-cloud/My-Study-Buddy---3402622.git)
 
 NOTES
