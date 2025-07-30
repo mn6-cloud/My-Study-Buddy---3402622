@@ -12,14 +12,14 @@ FEATURES
 Topic summarizer, Quiz module with automatic feedback, Simple chatbot Q&A, Easy navigation and clean interface
 
 HOW TO RUN THE PROJECT
-Clone the repo (git clone https://github.com/mn6-cloud/MyStudyBuddy.git)
+Clone the repo (git clone https://github.com/mn6-cloud/My-Study-Buddy---3402622.git)
 Navigate to the project folder (cd MyStudyBuddy)
 Run the Django server (python manage.py runserver)
 Open your browser and go to (https://127.0.0.1:8000/summary/)
 
 Name: Mary Nsiah
 Supervisor:
-Github Repository: (https://github,com/mn6-cloud/MyStudyBuddy)
+Github Repository: [https://github.com/mn6-cloud/My-Study-Buddy---3402622.git](https://github.com/mn6-cloud/My-Study-Buddy---3402622.git)
 
 NOTES
 This project was developed as my mini project for my Computer Science degree
