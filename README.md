@@ -19,7 +19,7 @@ Open your browser and go to (https://127.0.0.1:8000/summary/)
 
 Developed by: Mary Nsiah
 
-Supervised by: E.O.Osei
+Supervised by: Dr.E.O.Osei
 
 Github Repository: [https://github.com/mn6-cloud/My-Study-Buddy---3402622.git](https://github.com/mn6-cloud/My-Study-Buddy---3402622.git)
 
