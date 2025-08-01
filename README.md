@@ -27,5 +27,5 @@ NOTES
 This project was developed as my mini project for my Computer Science degree
 All contents and features are built from scratch using basic web and python tools.
 
-LINCENSE
+LICENSE
 This project is for educational purpose only
